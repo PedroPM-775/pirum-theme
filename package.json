@@ -1,0 +1,21 @@
+{
+  "name": "pirum-theme",
+  "displayName": "pirum",
+  "description": "Pirum Theme!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pirum Theme ",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Pirum Theme -color-theme.json"
+      }
+    ]
+  }
+}
