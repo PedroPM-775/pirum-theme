@@ -176,7 +176,7 @@
         "meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#cecece"
+        "foreground": "#b4b4b4"
       }
     },
     {
@@ -195,10 +195,17 @@
         "support.type.exception.python",
         "source.css keyword.other.unit",
         "variable.other.object.property.js.jsx",
-        "variable.other.object.js"
+        "variable.other.object.js",
+        "constant",
+        "support.class",
+        "keyword.operator",
+        "support.constant",
+        "text.html.markdown string",
+        "source.css support.function",
+        "source.php support.function"
       ],
       "settings": {
-        "foreground": "#fabf52"
+        "foreground": "#c47264"
       }
     },
     {
@@ -240,22 +247,7 @@
       }
     },
     {
-      "name": "Red writing",
-      "scope": [
-        "constant",
-        "support.class",
-        "keyword.operator",
-        "support.constant",
-        "text.html.markdown string",
-        "source.css support.function",
-        "source.php support.function"
-      ],
-      "settings": {
-        "foreground": "#c47264"
-      }
-    },
-    {
-      "name": "Purple Writing",
+      "name": "Green Writing",
       "scope": [
         "string",
         "text.html.php string",
@@ -281,10 +273,36 @@
       }
     },
     {
+      "name": "Operators, Numbers",
+      "scope": ["keyword.operator", "constant.numeric"],
+      "settings": {
+        "foreground": "#e9b066",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "Italic",
-      "scope": ["comment", "invalid", "keyword", "entity.other.attribute-name"],
+      "scope": [
+        "invalid",
+        "keyword",
+        "storage",
+        "entity.name",
+        "entity.other.attribute-name"
+      ],
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Bold Italic",
+      "scope": [
+        "comment",
+        "entity.name.tag.html",
+        "entity.other.attribute-name.html",
+        "entity.name.tag.css"
+      ],
+      "settings": {
+        "fontStyle": "bold italic"
       }
     }
   ]
