@@ -12,9 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Pirum Theme ",
+        "label": "Pirum Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Pirum Theme -color-theme.json"
+      },
+      {
+        "label": "Pirum Theme Italic Bold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Pirum_Theme_ItalicBold.json"
       }
     ]
   }
