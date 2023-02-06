@@ -20,6 +20,10 @@
         "label": "Pirum Theme Italic Bold",
         "uiTheme": "vs-dark",
         "path": "./themes/Pirum_Theme_ItalicBold.json"
+      },{
+        "label": "Temardo Pirumardo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/temanoseque.json"
       }
     ]
   }
