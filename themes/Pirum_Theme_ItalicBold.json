@@ -275,7 +275,10 @@
           "meta.image",
           "markup.italic",
           "source.js support.type",
-          "entity.name.tag"
+          "entity.name.tag",
+          "markup.list.unnumbered.markdown",
+          "markup.list.numbered.markdown"
+      
         ],
         "settings": {
           "foreground": "#d4d364"
@@ -309,7 +312,7 @@
       },
       {
         "name": "Operators, Numbers",
-        "scope": ["keyword.operator", "constant.numeric"],
+        "scope": ["keyword.operator", "constant.numeric", "markup.heading.markdown"],
         "settings": {
           "foreground": "#e9b066",
           "fontStyle": ""
