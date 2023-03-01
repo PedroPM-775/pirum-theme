@@ -271,8 +271,7 @@
                 "markup.italic",
                 "source.js support.type",
                 "entity.name.tag",
-                "markup.list.unnumbered.markdown",
-                "markup.list.numbered.markdown"
+                "punctuation.definition.list.begin.markdown"
             ],
             "settings": {
                 "foreground": "#d4d364"
@@ -319,15 +318,26 @@
                 "keyword",
                 "storage",
                 "entity.name",
-                "entity.other.attribute-name"
+                "entity.other.attribute-name",
+                "markup.fenced_code.block.markdown",
+                "markup.list.unnumbered.markdown",
+                "markup.list.numbered.markdown"
             ],
             "settings": {
                 "fontStyle": "italic"
             }
         },
         {
+            "name": "bold",
+            "scope": ["markup.bold"],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
             "name": "Bold Italic",
             "scope": [
+                "entity.name.section.markdown",
                 "comment",
                 "entity.name.tag.html",
                 "entity.other.attribute-name.html",
