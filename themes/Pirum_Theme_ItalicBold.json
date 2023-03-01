@@ -241,7 +241,6 @@
         {
             "name": "Blueish Writing",
             "scope": [
-                "markup.list",
                 "text.xml string",
                 "entity.name.type",
                 "support.function",
