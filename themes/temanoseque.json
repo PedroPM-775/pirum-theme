@@ -297,7 +297,6 @@
                 "fenced_code.block.language",
                 "variable.language.this",
                 "constant.other.caps.python",
-                "entity.other.attribute-name",
                 "support.type.exception.python",
                 "source.css keyword.other.unit",
                 "variable.other.object.property.js.jsx",
