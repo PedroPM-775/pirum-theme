@@ -25,6 +25,11 @@
         "uiTheme": "vs-dark",
         "path": "./themes/temanoseque.json"
       }
+      ,{
+        "label": "temito pirumito",
+        "uiTheme": "vs-dark",
+        "path": "./themes/temagris.json"
+      }
     ]
   }
 }
