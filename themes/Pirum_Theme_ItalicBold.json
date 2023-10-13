@@ -183,7 +183,12 @@
         },
         {
             "name": "Comment",
-            "scope": ["comment", "markup.quote.markdown", "meta.diff", "meta.diff.header"],
+            "scope": [
+                "comment",
+                "markup.quote.markdown",
+                "meta.diff",
+                "meta.diff.header"
+            ],
             "settings": {
                 "foreground": "#5e5e5e"
             }
@@ -297,14 +302,20 @@
         },
         {
             "name": "Underline",
-            "scope": ["entity.other.inherited-class"],
+            "scope": [
+                "entity.other.inherited-class"
+            ],
             "settings": {
                 "fontStyle": "underline"
             }
         },
         {
             "name": "Operators, Numbers",
-            "scope": ["keyword.operator", "constant.numeric", "markup.heading.markdown"],
+            "scope": [
+                "keyword.operator",
+                "constant.numeric",
+                "markup.heading.markdown"
+            ],
             "settings": {
                 "foreground": "#e9b066",
                 "fontStyle": ""
@@ -329,7 +340,9 @@
         },
         {
             "name": "bold",
-            "scope": ["markup.bold"],
+            "scope": [
+                "markup.bold"
+            ],
             "settings": {
                 "fontStyle": "bold"
             }
