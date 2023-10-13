@@ -29,6 +29,11 @@
         "label": "temito pirumito",
         "uiTheme": "vs-dark",
         "path": "./themes/temagris.json"
+      },
+      {
+        "label": "el temaco de paco",
+        "uiTheme": "vs-dark",
+        "path": "./themes/enhanced-material-fork-color-theme.json"
       }
     ]
   }
