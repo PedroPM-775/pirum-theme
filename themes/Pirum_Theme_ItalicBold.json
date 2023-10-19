@@ -327,7 +327,6 @@
                 "invalid",
                 "keyword",
                 "storage",
-                "string",
                 "entity.name",
                 "entity.other.attribute-name",
                 "markup.fenced_code.block.markdown",
