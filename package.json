@@ -34,6 +34,11 @@
         "label": "el temaco de paco",
         "uiTheme": "vs-dark",
         "path": "./themes/enhanced-material-fork-color-theme.json"
+      },
+      {
+        "label": "tema de pirumatom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/temacodeartipaco.json"
       }
     ]
   }
