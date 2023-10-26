@@ -49,7 +49,7 @@
             "meta.structure.dictionary.json support.type.property-name"
         ],
         "settings": {
-            "foreground": "#b4b4b4"
+            "foreground": "#a6a4a4"
         }
     },
     {
@@ -210,7 +210,7 @@
         "dropdown.background": "#20292e",
         "editor.background": "#263238",
         "editor.findMatchBackground": "#0096887a",
-        "editor.foreground": "#d4d4d4",
+        "editor.foreground": "#a6a4a4",
         "editor.lineHighlightBackground": "#212b30",
         "editor.selectionBackground": "#3b4d56",
         "editorBracketMatch.background": "#354044",
