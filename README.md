@@ -14,3 +14,17 @@ You can author your README using Visual Studio Code. Here are some useful editor
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+
+copia esto en tu extensions.json de la carpeta vscode cambiando el path 
+
+ {
+        "identifier": { "id": "undefined_publisher.pirum-theme" },
+        "version": "0.0.1",
+        "location": {
+            "$mid": 1,
+            "path": "/Users/pedropme/.vscode/extensions/pirum-theme",
+            "scheme": "file"
+        },
+        "relativeLocation": "pirum-theme",
+        "metadata": { "isApplicationScoped": true }
+    },
