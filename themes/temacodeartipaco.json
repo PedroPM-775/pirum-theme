@@ -1,204 +1,6 @@
 {
     "name": "Enhanced Material - Fork",
     "type": "dark",
-    "semanticHighlighting": true,
-    "semanticTokenColors": {
-      "enumMember": {
-        "foreground": "#3cc9c2"
-      },
-      "variable.constant": {
-        "foreground": "#00fff3"
-      },
-      "variable.defaultLibrary": {
-        "foreground": "#ff8f00"
-      }
-    },
-    "tokenColors": [
-      {
-        "settings": {
-            "foreground": "#D5CED9"
-        }
-    },
-    {
-        "name": "Comment",
-        "scope": [
-            "comment",
-            "markup.quote.markdown",
-            "meta.diff",
-            "meta.diff.header"
-        ],
-        "settings": {
-            "foreground": "#5e5e5e"
-        }
-    },
-    {
-        "name": "Base Color",
-        "scope": [
-            "punctuation.definition.metadata.markdown",
-            "meta.template.expression.js",
-            "punctuation.definition.string.end.markdown",
-            "punctuation.definition.string.begin.markdown",
-            "constant.name.attribute.tag.jade",
-            "variable",
-            "support.variable",
-            "entity.name.tag.yaml",
-            "constant.character.entity.html",
-            "source.css entity.name.tag.reference",
-            "beginning.punctuation.definition.list.markdown",
-            "source.css entity.other.attribute-name.parent-selector",
-            "meta.structure.dictionary.json support.type.property-name"
-        ],
-        "settings": {
-            "foreground": "#a6a4a4"
-        }
-    },
-    {
-        "name": "Orange Writing",
-        "scope": [
-            "markup.bold",
-            "constant.numeric",
-            "constant.other.php",
-            "support.constant.ext.php",
-            "constant.other.class.php",
-            "support.constant.core.php",
-            "fenced_code.block.language",
-            "variable.language.this",
-            "constant.other.caps.python",
-            "entity.other.attribute-name",
-            "support.type.exception.python",
-            "source.css keyword.other.unit",
-            "variable.other.object.property.js.jsx",
-            "variable.other.object.js",
-            "constant",
-            "support.class",
-            "keyword.operator",
-            "support.constant",
-            "text.html.markdown string",
-            "source.css support.function",
-            "source.php support.function"
-        ],
-        "settings": {
-            "foreground": "#c47264"
-        }
-    },
-    {
-        "name": "Blueish Writing",
-        "scope": [
-            "text.xml string",
-            "entity.name.type",
-            "support.function",
-            "entity.other.attribute-name",
-            "meta.at-rule.extend",
-            "entity.name.function",
-            "entity.other.inherited-class",
-            "entity.other.keyframe-offset.css",
-            "text.html.markdown string.quoted",
-            "meta.function-call.generic.python",
-            "meta.at-rule.extend support.constant",
-            "entity.other.attribute-name.class.jade",
-            "source.css entity.other.attribute-name",
-            "text.xml punctuation.definition.string"
-        ],
-        "settings": {
-            "foreground": "#7a94ec"
-        }
-    },
-    {
-        "name": "Cyan",
-        "scope": [
-            "storage",
-            "keyword",
-            "meta.link",
-            "meta.image",
-            "markup.italic",
-            "source.js support.type",
-            "entity.name.tag",
-            "punctuation.definition.list.begin.markdown"
-        ],
-        "settings": {
-            "foreground": "#d4d364"
-        }
-    },
-    {
-        "name": "Green Writing",
-        "scope": [
-            "string",
-            "text.html.php string",
-            "markup.inline.raw",
-            "markup.inserted",
-            "punctuation.definition.string",
-            "punctuation.definition.markdown",
-            "text.html meta.embedded source.js string",
-            "text.html.php punctuation.definition.string",
-            "text.html meta.embedded source.js punctuation.definition.string",
-            "text.html punctuation.definition.string",
-            "text.html string"
-        ],
-        "settings": {
-            "foreground": "#8dcc7a"
-        }
-    },
-    {
-        "name": "Underline",
-        "scope": [
-            "entity.other.inherited-class"
-        ],
-        "settings": {
-            "fontStyle": "underline"
-        }
-    },
-    {
-        "name": "Operators, Numbers",
-        "scope": [
-            "keyword.operator",
-            "constant.numeric",
-            "markup.heading.markdown"
-        ],
-        "settings": {
-            "foreground": "#e9b066",
-            "fontStyle": ""
-        }
-    },
-    {
-        "name": "Italic",
-        "scope": [
-            "invalid",
-            "keyword",
-            "storage",
-            "entity.name",
-            "entity.other.attribute-name",
-            "markup.fenced_code.block.markdown",
-            "markup.list.unnumbered.markdown",
-            "markup.list.numbered.markdown"
-        ],
-        "settings": {
-            "fontStyle": "italic"
-        }
-    },
-    {
-        "name": "bold",
-        "scope": [
-            "markup.bold"
-        ],
-        "settings": {
-            "fontStyle": "bold"
-        }
-    },
-    {
-        "name": "Bold Italic",
-        "scope": [
-            "entity.name.section.markdown",
-            "comment",
-            "entity.name.tag.html",
-            "entity.other.attribute-name.html",
-            "entity.name.tag.css"
-        ],
-        "settings": {
-            "fontStyle": "bold italic"
-        }
-    }
-    ],
-    
     "colors": {
         "activityBar.activeBorder": "#009688",
         "activityBar.background": "#20292e",
@@ -210,7 +12,6 @@
         "dropdown.background": "#20292e",
         "editor.background": "#263238",
         "editor.findMatchBackground": "#0096887a",
-        "editor.foreground": "#a6a4a4",
         "editor.lineHighlightBackground": "#212b30",
         "editor.selectionBackground": "#3b4d56",
         "editorBracketMatch.background": "#354044",
@@ -261,11 +62,11 @@
         "sideBarTitle.foreground": "#bbbbbb",
         "statusBar.background": "#232e33",
         "statusBar.foreground": "#a7b6b8",
-        "tab.activeBackground": "#232e33",
+        "tab.activeBackground": "#2c3a41",
+        "tab.inactiveBackground": "#232e33",
         "tab.activeBorder": "#009688",
         "tab.activeForeground": "#eeffff",
         "tab.border": "#232e33",
-        "tab.inactiveBackground": "#232e33",
         "tab.inactiveForeground": "#a1b0b2",
         "terminal.ansiBlack": "#313131",
         "terminal.ansiBlue": "#4fb6f7",
@@ -287,5 +88,178 @@
         "terminal.foreground": "#d4d4d4",
         "titleBar.activeBackground": "#222d32",
         "debugToolBar.background": "#232e33"
-      }
-  }
+    },
+
+    "tokenColors": [
+        {
+            "settings": {
+                "foreground": "#D5CED9"
+            }
+        },
+        {
+            "name": "Comment",
+            "scope": ["comment", "markup.quote.markdown", "meta.diff", "meta.diff.header"],
+            "settings": {
+                "foreground": "#5e5e5e"
+            }
+        },
+        {
+            "name": "Base Color",
+            "scope": [
+                "punctuation.definition.metadata.markdown",
+                "meta.template.expression.js",
+                "punctuation.definition.string.end.markdown",
+                "punctuation.definition.string.begin.markdown",
+                "constant.name.attribute.tag.jade",
+                "variable",
+                "support.variable",
+                "entity.name.tag.yaml",
+                "constant.character.entity.html",
+                "source.css entity.name.tag.reference",
+                "beginning.punctuation.definition.list.markdown",
+                "source.css entity.other.attribute-name.parent-selector",
+                "meta.structure.dictionary.json support.type.property-name"
+            ],
+            "settings": {
+                "foreground": "#b4b4b4"
+            }
+        },
+        {
+            "name": "Orange Writing",
+            "scope": [
+                "markup.bold",
+                "constant.numeric",
+                "constant.other.php",
+                "support.constant.ext.php",
+                "constant.other.class.php",
+                "support.constant.core.php",
+                "fenced_code.block.language",
+                "variable.language.this",
+                "constant.other.caps.python",
+                "entity.other.attribute-name",
+                "support.type.exception.python",
+                "source.css keyword.other.unit",
+                "variable.other.object.property.js.jsx",
+                "variable.other.object.js",
+                "constant",
+                "support.class",
+                "keyword.operator",
+                "support.constant",
+                "text.html.markdown string",
+                "source.css support.function",
+                "source.php support.function"
+            ],
+            "settings": {
+                "foreground": "#c47264"
+            }
+        },
+        {
+            "name": "Blueish Writing",
+            "scope": [
+                "text.xml string",
+                "entity.name.type",
+                "support.function",
+                "entity.other.attribute-name",
+                "meta.at-rule.extend",
+                "entity.name.function",
+                "entity.other.inherited-class",
+                "entity.other.keyframe-offset.css",
+                "text.html.markdown string.quoted",
+                "meta.function-call.generic.python",
+                "meta.at-rule.extend support.constant",
+                "entity.other.attribute-name.class.jade",
+                "source.css entity.other.attribute-name",
+                "text.xml punctuation.definition.string"
+            ],
+            "settings": {
+                "foreground": "#7a94ec"
+            }
+        },
+        {
+            "name": "Cyan",
+            "scope": [
+                "storage",
+                "keyword",
+                "meta.link",
+                "meta.image",
+                "markup.italic",
+                "source.js support.type",
+                "entity.name.tag",
+                "punctuation.definition.list.begin.markdown"
+            ],
+            "settings": {
+                "foreground": "#d4d364"
+            }
+        },
+        {
+            "name": "Green Writing",
+            "scope": [
+                "string",
+                "text.html.php string",
+                "markup.inline.raw",
+                "markup.inserted",
+                "punctuation.definition.string",
+                "punctuation.definition.markdown",
+                "text.html meta.embedded source.js string",
+                "text.html.php punctuation.definition.string",
+                "text.html meta.embedded source.js punctuation.definition.string",
+                "text.html punctuation.definition.string",
+                "text.html string"
+            ],
+            "settings": {
+                "foreground": "#8dcc7a"
+            }
+        },
+        {
+            "name": "Underline",
+            "scope": ["entity.other.inherited-class"],
+            "settings": {
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "name": "Operators, Numbers",
+            "scope": ["keyword.operator", "constant.numeric", "markup.heading.markdown"],
+            "settings": {
+                "foreground": "#e9b066",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Italic",
+            "scope": [
+                "invalid",
+                "keyword",
+                "storage",
+                "entity.name",
+                "entity.other.attribute-name",
+                "markup.fenced_code.block.markdown",
+                "markup.list.unnumbered.markdown",
+                "markup.list.numbered.markdown"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "bold",
+            "scope": ["markup.bold"],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Bold Italic",
+            "scope": [
+                "entity.name.section.markdown",
+                "comment",
+                "entity.name.tag.html",
+                "entity.other.attribute-name.html",
+                "entity.name.tag.css"
+            ],
+            "settings": {
+                "fontStyle": "bold italic"
+            }
+        }
+    ]
+}
